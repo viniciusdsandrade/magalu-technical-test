@@ -1,0 +1,11 @@
+services:
+  mysql:
+    container_name: 'mysql-magalu-technical-test'
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=db_magalu_technical_test'
+      - 'MYSQL_PASSWORD=GhostSthong567890@#'
+      - 'MYSQL_ROOT_PASSWORD=GhostSthong567890@#'
+      - 'MYSQL_USER=admin'
+    ports:
+      - '3307:3306'
