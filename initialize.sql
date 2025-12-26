@@ -84,3 +84,16 @@ CREATE TABLE IF NOT EXISTS `tb_notification`
 SET SQL_MODE = @OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS;
+
+-- -----------------------------------------------------
+-- Validation
+-- -----------------------------------------------------
+
+SHOW TABLES;
+DESCRIBE tb_notification;
+DESCRIBE tb_channel;
+DESCRIBE tb_status;
+
+SELECT * FROM tb_channel;
+SELECT * FROM tb_status;
+SELECT * FROM tb_notification;
